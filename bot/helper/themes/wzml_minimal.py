@@ -137,24 +137,24 @@ class WZMLStyle:
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<code>{Name}</code>\n\n'
-    SIZE =                  '➢<b>𝖲𝗂𝗓𝖾: </b>{Size}\n'
-    ELAPSE =                '➢<b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽: </b>{Time}\n'
-    MODE =                  '➢<b>𝖬𝗈𝖽𝖾: </b>{Mode}\n'
+    SIZE =                  '➢ <b>𝖲𝗂𝗓𝖾: </b>{Size}\n'
+    ELAPSE =                '➢ <b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽: </b>{Time}\n'
+    MODE =                  '➢ <b>𝖬𝗈𝖽𝖾: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '➢<b>𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '➢<b>𝖢𝗈𝗋𝗋𝗎𝗉𝗍𝖾𝖽 𝖥𝗂𝗅𝖾𝗌: </b>{Corrupt}\n'
-    L_CC =                  '➢<b>𝖴𝗌𝖾𝗋: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '➢ <b>𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '➢ <b>𝖢𝗈𝗋𝗋𝗎𝗉𝗍𝖾𝖽 𝖥𝗂𝗅𝖾𝗌: </b>{Corrupt}\n'
+    L_CC =                  '➢ <b>𝖴𝗌𝖾𝗋: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
     
     # ----- MIRROR -------
-    M_TYPE =                '┠ <b>Type: </b>{Mimetype}\n'
-    M_SUBFOLD =             '┠ <b>SubFolders: </b>{Folder}\n'
-    TOTAL_FILES =           '┠ <b>Files: </b>{Files}\n'
-    RCPATH =                '┠ <b>Path: </b><code>{RCpath}</code>\n'
-    M_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    M_TYPE =                '➢ <b>Type: </b>{Mimetype}\n'
+    M_SUBFOLD =             '➢ <b>SubFolders: </b>{Folder}\n'
+    TOTAL_FILES =           '➢ <b>Files: </b>{Files}\n'
+    RCPATH =                '➢ <b>Path: </b><code>{RCpath}</code>\n'
+    M_CC =                  '➢ <b>By: </b>{Tag}\n\n'
     M_BOT_MSG =             '➲ <b><i>Link(s) have been Sent to Bot PM (Private)</i></b>'
     # ----- BUTTONS -------
     CLOUD_LINK =      '☁️ Cloud Link'
