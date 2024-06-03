@@ -207,13 +207,13 @@ class WZMLStyle:
 
     ####------FOOTER--------
     FOOTER = '⟲ <b> 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗌</b>\n'
-    TASKS =  '┠ <b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
-    Cpu = '┠ <b>CPU:</b> {cpu}% | '
+    TASKS =  '<b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}\n'
+    BOT_TASKS = '<b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    Cpu = '<b>CPU:</b> {cpu}% | '
     FREE =                      '<b>𝖥𝗋𝖾𝖾:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>𝖱𝖠𝖬:</b> {ram}% | '
+    Ram = '\n<b>𝖱𝖠𝖬:</b> {ram}% | '
     uptime =                     '<b>𝖴𝖯𝖳𝖨𝖬𝖤:</b> {uptime}'
-    DL = '\n┖ <b>𝖣𝖫:</b> {DL}/s | '
+    DL = '\n<b>𝖣𝖫:</b> {DL}/s | '
     UL =                        '<b>𝖴𝗅:</b> {UL}/s'
 
     ###--------BUTTONS-------
