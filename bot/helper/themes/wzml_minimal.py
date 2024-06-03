@@ -3,9 +3,9 @@ class WZMLStyle:
     # ----------------------
     # async def start(client, message) ---> __main__.py
     ST_BN1_NAME = '𝖴𝗉𝖽𝖺𝗍𝖾𝗌 🌛'
-    ST_BN1_URL = 'https://t.me/Bihari_Anime'
+    ST_BN1_URL = 'https://t.me/dadaxcloud'
     ST_BN2_NAME = '𝖮𝗐𝗇𝖾𝗋 🛸'
-    ST_BN2_URL = 'https://t.me/BihariBots'
+    ST_BN2_URL = 'https://t.me/dadaxbhai'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to telegram.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
     ST_BOTPM = '''<i>Now, This bot will send all your files and links here🎉. Start Using ...</i>'''
