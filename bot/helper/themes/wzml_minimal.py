@@ -176,7 +176,7 @@ class WZMLStyle:
     STATUS_NAME =       '<b><center><a href="https://t.me/dadaxcloud">⤹★ 𝗗𝗮𝗗𝗮 𝗫 𝗖𝗹𝗼𝘂𝗱 ★⤸</a> </b></center>\n\n➣ : </b><code>{Name}</code>\n'
 
     #####---------PROGRESSIVE STATUS-------
-    BAR =               '\n┃ {Bar}'
+    BAR =               '\n {Bar}'
     PROCESSED =         '\n <b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
     STATUS =            '\n <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>𝖤𝖳𝖠:</b> {Eta}'
