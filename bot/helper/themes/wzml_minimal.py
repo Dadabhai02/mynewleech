@@ -206,20 +206,20 @@ class WZMLStyle:
     CANCEL =         '\n┖ {Cancel}\n\n'
 
     ####------FOOTER--------
-    FOOTER = '⌬ <b><i>Bot Stats</i></b>\n'
-    TASKS =  '┠ <b>Tasks:</b> {Tasks}\n'
-    BOT_TASKS = '┠ <b>Tasks:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
+    FOOTER = '⟲ <b> 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗌</b>\n'
+    TASKS =  '┠ <b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}\n'
+    BOT_TASKS = '┠ <b>𝖳𝖺𝗌𝗄𝗌:</b> {Tasks}/{Ttask} | <b>AVL:</b> {Free}\n'
     Cpu = '┠ <b>CPU:</b> {cpu}% | '
-    FREE =                      '<b>F:</b> {free} [{free_p}%]'
-    Ram = '\n┠ <b>RAM:</b> {ram}% | '
-    uptime =                     '<b>UPTIME:</b> {uptime}'
-    DL = '\n┖ <b>DL:</b> {DL}/s | '
-    UL =                        '<b>UL:</b> {UL}/s'
+    FREE =                      '<b>𝖥𝗋𝖾𝖾:</b> {free} [{free_p}%]'
+    Ram = '\n┠ <b>𝖱𝖠𝖬:</b> {ram}% | '
+    uptime =                     '<b>𝖴𝖯𝖳𝖨𝖬𝖤:</b> {uptime}'
+    DL = '\n┖ <b>𝖣𝖫:</b> {DL}/s | '
+    UL =                        '<b>𝖴𝗅:</b> {UL}/s'
 
     ###--------BUTTONS-------
-    PREVIOUS = '⫷'
-    REFRESH = 'ᴘᴀɢᴇs\n{Page}'
-    NEXT = '⫸'
+    PREVIOUS = '⤺ '
+    REFRESH = '𝗣𝗮𝗴𝗲𝘀\n{Page}'
+    NEXT = '⤻'
     # ---------------------
 
     #STOP_DUPLICATE_MSG: ---> clone.py, aria2_listener.py, task_manager.py
