@@ -143,7 +143,7 @@ class WZMLStyle:
 
     # ----- LEECH -------
     L_TOTAL_FILES =         '➢ <b>𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌: </b><code>{Files}</code>\n\n'
-    L_CORRUPTED_FILES =     '➢ <b>𝖢𝗈𝗋𝗋𝗎𝗉𝗍𝖾𝖽 𝖥𝗂𝗅𝖾𝗌: </b><b>{Corrupt}</b>\n\n'
+    L_CORRUPTED_FILES =     ''
     L_CC =                  '➢ <b>𝖴𝗌𝖾𝗋: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '• <b>𝖥𝗂𝗅𝖾𝗌 𝖧𝖺𝗌 𝖡𝖾𝖾𝗇 𝖲𝖾𝗇𝗍 𝖨𝗇 𝖸𝗈𝗎𝗋 𝖣𝗆...</b>'
