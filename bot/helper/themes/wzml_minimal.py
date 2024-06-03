@@ -137,14 +137,14 @@ class WZMLStyle:
 
     # async def onUploadComplete(): ---> tasks_listener.py
     NAME =                  '<b><i>{Name}</i></b>\n┃\n'
-    SIZE =                  '┠ <b>Size: </b>{Size}\n'
-    ELAPSE =                '┠ <b>Elapsed: </b>{Time}\n'
-    MODE =                  '┠ <b>Mode: </b>{Mode}\n'
+    SIZE =                  '➢<b>𝖲𝗂𝗓𝖾: </b>{Size}\n'
+    ELAPSE =                '➢<b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽: </b>{Time}\n'
+    MODE =                  '➢<b>𝖬𝗈𝖽𝖾: </b>{Mode}\n'
 
     # ----- LEECH -------
-    L_TOTAL_FILES =         '┠ <b>Total Files: </b>{Files}\n'
-    L_CORRUPTED_FILES =     '┠ <b>Corrupted Files: </b>{Corrupt}\n'
-    L_CC =                  '┖ <b>By: </b>{Tag}\n\n'
+    L_TOTAL_FILES =         '➢<b>𝖳𝗈𝗍𝖺𝗅 𝖥𝗂𝗅𝖾𝗌: </b>{Files}\n'
+    L_CORRUPTED_FILES =     '➢<b>𝖢𝗈𝗋𝗋𝗎𝗉𝗍𝖾𝖽 𝖥𝗂𝗅𝖾𝗌: </b>{Corrupt}\n'
+    L_CC =                  '➢<b>𝖴𝗌𝖾𝗋: </b>{Tag}\n\n'
     PM_BOT_MSG =            '➲ <b><i>File(s) have been Sent above</i></b>'
     L_BOT_MSG =             '➲ <b><i>File(s) have been Sent to Bot PM (Private)</i></b>'
     L_LL_MSG =              '➲ <b><i>File(s) have been Sent. Access via Links...</i></b>\n'
@@ -200,7 +200,7 @@ class WZMLStyle:
     NON_ENGINE =     '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>𝗨𝘀𝗲𝗿:</b> <code>{User}</code> | '
+    USER =              '\n┠ <b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
@@ -229,11 +229,11 @@ class WZMLStyle:
     # async def countNode(_, message): ----> gd_count.py
     COUNT_MSG = '<b>Counting:</b> <code>{LINK}</code>'
     COUNT_NAME = '<b><i>{COUNT_NAME}</i></b>\n┃\n'
-    COUNT_SIZE = '┠ <b>Size: </b>{COUNT_SIZE}\n'
-    COUNT_TYPE = '┠ <b>Type: </b>{COUNT_TYPE}\n'
-    COUNT_SUB =  '┠ <b>SubFolders: </b>{COUNT_SUB}\n'
-    COUNT_FILE = '┠ <b>Files: </b>{COUNT_FILE}\n'
-    COUNT_CC =   '┖ <b>By: </b>{COUNT_CC}\n'
+    COUNT_SIZE = '<b>𝖲𝗂𝗓𝖾: </b>{COUNT_SIZE}\n'
+    COUNT_TYPE = '<b>Type: </b>{COUNT_TYPE}\n'
+    COUNT_SUB =  '<b>SubFolders: </b>{COUNT_SUB}\n'
+    COUNT_FILE = '<b>Files: </b>{COUNT_FILE}\n'
+    COUNT_CC =   '<b>By: </b>{COUNT_CC}\n'
     # ---------------------
 
     # LIST ---> gd_list.py
