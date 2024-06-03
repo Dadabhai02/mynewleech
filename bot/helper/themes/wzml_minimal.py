@@ -177,30 +177,30 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n🚀 {Bar}\n'
-    PROCESSED =         '\n <b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
-    STATUS =            '\n <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n ‣<b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
+    STATUS =            '\n ‣ <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>𝖤𝖳𝖠:</b> {Eta}'
-    SPEED =             '\n <b>𝖲𝗉𝖾𝖾𝖽:</b> {Speed}'
+    SPEED =             '\n ‣<b>𝖲𝗉𝖾𝖾𝖽:</b> {Speed}'
     ELAPSED =                                     ' | <b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽:</b> {Elapsed}'
-    ENGINE =            '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
-    STA_MODE =          '\n <b>𝖬𝗈𝖽𝖾:</b> {Mode}'
-    SEEDERS =           '\n <b>𝖲𝖾𝖾𝖽𝖾𝗋𝗌:</b> {Seeders} | '
+    ENGINE =            '\n ‣<b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    STA_MODE =          '\n ‣<b>𝖬𝗈𝖽𝖾:</b> {Mode}'
+    SEEDERS =           '\n ‣<b>𝖲𝖾𝖾𝖽𝖾𝗋𝗌:</b> {Seeders} | '
     LEECHERS =                                           '<b>𝖫𝖾𝖾𝖼𝗁𝖾𝗋𝗌:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n <b>𝖲𝗂𝗓𝖾: </b>{Size}'
-    SEED_SPEED =     '\n <b>𝖲𝗉𝖾𝖾𝖽: </b> {Speed} | '
-    UPLOADED =                                     '<b>𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽: </b> {Upload}'
-    RATIO =          '\n <b>𝖱𝖺𝗍𝗂𝗈: </b> {Ratio} | '
-    TIME =                                         '<b>𝖳𝗂𝗆𝖾: </b> {Time}'
-    SEED_ENGINE =    '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    SEED_SIZE =      '\n ‣<b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    SEED_SPEED =     '\n ‣<b>𝖲𝗉𝖾𝖾𝖽: </b> {Speed} | '
+    UPLOADED =                                     '‣<b>𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽: </b> {Upload}'
+    RATIO =          '\n ‣<b>𝖱𝖺𝗍𝗂𝗈: </b> {Ratio} | '
+    TIME =                                         '‣<b>𝖳𝗂𝗆𝖾: </b> {Time}'
+    SEED_ENGINE =    '\n ‣<b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n <b>𝖲𝗂𝗓𝖾: </b>{Size}'
-    NON_ENGINE =     '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    STATUS_SIZE =    '\n ‣<b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    NON_ENGINE =     '\n ‣<b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n <b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
+    USER =              '\n ‣<b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n <b>Select:</b> {Btsel}'
     CANCEL =         '\n <b>𝖲𝗍𝗈𝗉 🛑</b> :<b> {Cancel}\n\n'
