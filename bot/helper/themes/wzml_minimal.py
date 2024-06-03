@@ -165,7 +165,7 @@ class WZMLStyle:
     INDEX_LINK_F =    '🗂 Index Link'
     INDEX_LINK_D =    '⚡ Index Link'
     VIEW_LINK =       '🌐 View Link'
-    CHECK_PM =        '📥 View in Bot PM'
+    CHECK_PM =        '📥 𝖢𝗁𝖾𝖼𝗄 𝖡𝗈𝗍 𝖯𝖬'
     CHECK_LL =        '🖇 View in Links Log'
     MEDIAINFO_LINK =  '📃 MediaInfo'
     SCREENSHOTS =     '🖼 ScreenShots'
