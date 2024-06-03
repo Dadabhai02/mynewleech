@@ -8,7 +8,7 @@ class WZMLStyle:
     ST_BN2_URL = 'https://t.me/dadaxbhai'
     ST_MSG = '''<i>This bot can mirror all your links|files|torrents to telegram.</i>
 <b>Type {help_command} to get a list of available commands</b>'''
-    ST_BOTPM = '''<i>Now, This bot will send all your files and links here🎉. Start Using ...</i>'''
+    ST_BOTPM = '''<i>𝖭𝗈𝗐, 𝖳𝗁𝗂𝗌 𝖡𝗈𝗍 𝖶𝗂𝗅𝗅 𝖲𝖾𝗇𝖽 𝖠𝗅𝗅 𝖸𝗈𝗎𝗋 𝖥𝗂𝗅𝖾𝗌 𝖠𝗇𝖽 𝖫𝗂𝗇𝗄𝗌 𝖧𝖾𝗋𝖾. 𝖲𝗍𝖺𝗋𝗍 𝖴𝗌𝗂𝗇𝗀 ...</i>'''
     ST_UNAUTH = '''<i>You Are not authorized user! Deploy your own WZML-X Mirror-Leech bot</i>'''
     OWN_TOKEN_GENERATE = '''<b>Temporary Token is not yours!</b>\n\n<i>Kindly generate your own.</i>'''
     USED_TOKEN = '''<b>Temporary Token already used!</b>\n\n<i>Kindly generate a new one.</i>'''
