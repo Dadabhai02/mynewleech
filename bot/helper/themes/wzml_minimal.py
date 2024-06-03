@@ -177,27 +177,27 @@ class WZMLStyle:
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>Processed:</b> {Processed}'
-    STATUS =            '\n┠ <b>Status:</b> <a href="{Url}">{Status}</a>'
-    ETA =                                                ' | <b>ETA:</b> {Eta}'
-    SPEED =             '\n┠ <b>Speed:</b> {Speed}'
-    ELAPSED =                                     ' | <b>Elapsed:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>Engine:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>Mode:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>Seeders:</b> {Seeders} | '
-    LEECHERS =                                           '<b>Leechers:</b> {Leechers}'
+    PROCESSED =         '\n┠ <b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
+    STATUS =            '\n┠ <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
+    ETA =                                                ' | <b>𝖤𝖳𝖠:</b> {Eta}'
+    SPEED =             '\n┠ <b>𝖲𝗉𝖾𝖾𝖽:</b> {Speed}'
+    ELAPSED =                                     ' | <b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽:</b> {Elapsed}'
+    ENGINE =            '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    STA_MODE =          '\n┠ <b>𝖬𝗈𝖽𝖾:</b> {Mode}'
+    SEEDERS =           '\n┠ <b>𝖲𝖾𝖾𝖽𝖾𝗋𝗌:</b> {Seeders} | '
+    LEECHERS =                                           '<b>𝖫𝖾𝖾𝖼𝗁𝖾𝗋𝗌:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>Size: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>Speed: </b> {Speed} | '
-    UPLOADED =                                     '<b>Uploaded: </b> {Upload}'
-    RATIO =          '\n┠ <b>Ratio: </b> {Ratio} | '
-    TIME =                                         '<b>Time: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>Engine:</b> {Engine}'
+    SEED_SIZE =      '\n┠ <b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    SEED_SPEED =     '\n┠ <b>𝖲𝗉𝖾𝖾𝖽: </b> {Speed} | '
+    UPLOADED =                                     '<b>𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽: </b> {Upload}'
+    RATIO =          '\n┠ <b>𝖱𝖺𝗍𝗂𝗈: </b> {Ratio} | '
+    TIME =                                         '<b>𝖳𝗂𝗆𝖾: </b> {Time}'
+    SEED_ENGINE =    '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>Size: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>Engine:</b> {Engine}'
+    STATUS_SIZE =    '\n┠ <b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    NON_ENGINE =     '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
     USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
