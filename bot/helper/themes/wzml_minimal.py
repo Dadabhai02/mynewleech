@@ -203,7 +203,7 @@ class WZMLStyle:
     USER =              '\n <b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n <b>Select:</b> {Btsel}'
-    CANCEL =         '\n <b>𝖲𝗍𝗈𝗉 🛑 :<b> {Cancel}\n\n'
+    CANCEL =         '\n <b>𝖲𝗍𝗈𝗉 🛑</b> :<b> {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '⟲ <b> 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗌</b>\n'
