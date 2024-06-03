@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<i>{Name}</i>\n┃\n'
+    NAME =                  '<code>{Name}</code>\n┃\n'
     SIZE =                  '➢<b>𝖲𝗂𝗓𝖾: </b>{Size}\n'
     ELAPSE =                '➢<b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽: </b>{Time}\n'
     MODE =                  '➢<b>𝖬𝗈𝖽𝖾: </b>{Mode}\n'
