@@ -200,7 +200,7 @@ class WZMLStyle:
     NON_ENGINE =     '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>User:</b> <code>{User}</code> | '
+    USER =              '\n┠ <b>𝗨𝘀𝗲𝗿:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
     BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
     CANCEL =         '\n┖ {Cancel}\n\n'
