@@ -136,7 +136,7 @@ class WZMLStyle:
     L_LOG_START =           "➲ <b><u>Leech Started :</u></b>\n┃\n┠ <b>User :</b> {mention} ( #ID{uid} )\n┖ <b>Source :</b> <a href='{msg_link}'>Click Here</a>"
 
     # async def onUploadComplete(): ---> tasks_listener.py
-    NAME =                  '<code>{Name}</code>\n┃\n'
+    NAME =                  '<code>{Name}</code>\n\n'
     SIZE =                  '➢<b>𝖲𝗂𝗓𝖾: </b>{Size}\n'
     ELAPSE =                '➢<b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽: </b>{Time}\n'
     MODE =                  '➢<b>𝖬𝗈𝖽𝖾: </b>{Mode}\n'
@@ -173,37 +173,37 @@ class WZMLStyle:
 
     # def get_readable_message(): ---> bot_utilis.py
     ####--------OVERALL MSG HEADER----------
-    STATUS_NAME =       '<b>༺━━━━ « <a href="https://t.me/dadaxcloud">⤹★ 𝗗𝗮𝗗𝗮 𝗫 𝗖𝗹𝗼𝘂𝗱 ★⤸</a> » ━━━━༻</b>\n\n➣ :</b><code>{Name}</code>\n'
+    STATUS_NAME =       '<b> <a href="https://t.me/dadaxcloud">⤹★ 𝗗𝗮𝗗𝗮 𝗫 𝗖𝗹𝗼𝘂𝗱 ★⤸</a> </b>\n\n➣ : </b><code>{Name}</code>\n'
 
     #####---------PROGRESSIVE STATUS-------
     BAR =               '\n┃ {Bar}'
-    PROCESSED =         '\n┠ <b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
-    STATUS =            '\n┠ <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
+    PROCESSED =         '\n <b>𝖯𝗋𝗈𝖼𝖾𝗌𝗌𝖾𝖽:</b> {Processed}'
+    STATUS =            '\n <b>𝖲𝗍𝖺𝗍𝗎𝗌:</b> <a href="{Url}">{Status}</a>'
     ETA =                                                ' | <b>𝖤𝖳𝖠:</b> {Eta}'
-    SPEED =             '\n┠ <b>𝖲𝗉𝖾𝖾𝖽:</b> {Speed}'
+    SPEED =             '\n <b>𝖲𝗉𝖾𝖾𝖽:</b> {Speed}'
     ELAPSED =                                     ' | <b>𝖤𝗅𝖺𝗉𝗌𝖾𝖽:</b> {Elapsed}'
-    ENGINE =            '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
-    STA_MODE =          '\n┠ <b>𝖬𝗈𝖽𝖾:</b> {Mode}'
-    SEEDERS =           '\n┠ <b>𝖲𝖾𝖾𝖽𝖾𝗋𝗌:</b> {Seeders} | '
+    ENGINE =            '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    STA_MODE =          '\n <b>𝖬𝗈𝖽𝖾:</b> {Mode}'
+    SEEDERS =           '\n <b>𝖲𝖾𝖾𝖽𝖾𝗋𝗌:</b> {Seeders} | '
     LEECHERS =                                           '<b>𝖫𝖾𝖾𝖼𝗁𝖾𝗋𝗌:</b> {Leechers}'
 
     ####--------SEEDING----------
-    SEED_SIZE =      '\n┠ <b>𝖲𝗂𝗓𝖾: </b>{Size}'
-    SEED_SPEED =     '\n┠ <b>𝖲𝗉𝖾𝖾𝖽: </b> {Speed} | '
+    SEED_SIZE =      '\n <b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    SEED_SPEED =     '\n <b>𝖲𝗉𝖾𝖾𝖽: </b> {Speed} | '
     UPLOADED =                                     '<b>𝖴𝗉𝗅𝗈𝖺𝖽𝖾𝖽: </b> {Upload}'
-    RATIO =          '\n┠ <b>𝖱𝖺𝗍𝗂𝗈: </b> {Ratio} | '
+    RATIO =          '\n <b>𝖱𝖺𝗍𝗂𝗈: </b> {Ratio} | '
     TIME =                                         '<b>𝖳𝗂𝗆𝖾: </b> {Time}'
-    SEED_ENGINE =    '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    SEED_ENGINE =    '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------NON-PROGRESSIVE + NON SEEDING----------
-    STATUS_SIZE =    '\n┠ <b>𝖲𝗂𝗓𝖾: </b>{Size}'
-    NON_ENGINE =     '\n┠ <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
+    STATUS_SIZE =    '\n <b>𝖲𝗂𝗓𝖾: </b>{Size}'
+    NON_ENGINE =     '\n <b>𝖤𝗇𝗀𝗂𝗇𝖾:</b> {Engine}'
 
     ####--------OVERALL MSG FOOTER----------
-    USER =              '\n┠ <b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
+    USER =              '\n <b>𝖴𝗌𝖾𝗋:</b> <code>{User}</code> | '
     ID =                                                        '<b>ID:</b> <code>{Id}</code>'
-    BTSEL =          '\n┠ <b>Select:</b> {Btsel}'
-    CANCEL =         '\n┖ {Cancel}\n\n'
+    BTSEL =          '\n <b>Select:</b> {Btsel}'
+    CANCEL =         '\n <b>𝖲𝗍𝗈𝗉 🛑 :<b> {Cancel}\n\n'
 
     ####------FOOTER--------
     FOOTER = '⟲ <b> 𝖡𝗈𝗍 𝖲𝗍𝖺𝗍𝗌</b>\n'
